@@ -61,7 +61,7 @@ This project addresses the following business problems:
 # 🏗️ System Architecture
 
 <p align="center">
-  <img src="architecture/project_architecture.png" width="1000">
+  <img src="architecture/enterprise_retail_architecture.png" width="1000">
 </p>
 
 The architecture follows a layered analytics approach:
@@ -147,7 +147,7 @@ Business-ready analytical datasets and reporting tables.
 ## Annual Sales Revenue
 
 <p align="center">
-<img src="outputs/visualizations/eda/sales_by_year.png" width="700">
+<img src="outputs/eda/sales_by_year.png" width="700">
 </p>
 
 ---
@@ -155,7 +155,7 @@ Business-ready analytical datasets and reporting tables.
 ## Top Countries by Sales Revenue
 
 <p align="center">
-<img src="outputs/visualizations/eda/top_countries.png" width="700">
+<img src="outputs/eda/top_countries.png" width="700">
 </p>
 
 ---
@@ -179,7 +179,7 @@ RFM analysis was performed to understand customer purchasing behavior.
 ## Frequency vs Monetary Value
 
 <p align="center">
-<img src="outputs/visualizations/rfm/rfm_frequency_monetary.png" width="700">
+<img src="outputs/analytics/rfm_frequency_monetary.png" width="700">
 </p>
 
 ---
@@ -187,7 +187,7 @@ RFM analysis was performed to understand customer purchasing behavior.
 ## Customer Segments
 
 <p align="center">
-<img src="outputs/rfm_segments.png" width="700">
+<img src="outputs/analytics/rfm_segments.png" width="700">
 </p>
 
 ---
@@ -199,7 +199,7 @@ Customer Lifetime Value (CLV) was calculated to identify long-term customer prof
 ## CLV Distribution
 
 <p align="center">
-<img src="outputs/visualizations/clv/clv_distribution.png" width="700">
+<img src="outputs/analytics/clv_distribution.png" width="700">
 </p>
 
 ---
@@ -207,7 +207,7 @@ Customer Lifetime Value (CLV) was calculated to identify long-term customer prof
 ## Top Customers by CLV
 
 <p align="center">
-<img src="outputs/visualizations/clv/top_customers_clv.png" width="700">
+<img src="outputs/analytics/top_customers_clv.png" width="700">
 </p>
 
 ---
@@ -217,7 +217,7 @@ Customer Lifetime Value (CLV) was calculated to identify long-term customer prof
 Customer retention patterns were analyzed using cohort analysis.
 
 <p align="center">
-<img src="outputs/visualizations/cohort/cohort_retention_heatmap.png" width="900">
+<img src="outputs/machine_learning/cohort_retention_heatmap.png" width="900">
 </p>
 
 ---
@@ -227,7 +227,7 @@ Customer retention patterns were analyzed using cohort analysis.
 K-Means clustering was applied to segment customers according to purchasing behavior.
 
 <p align="center">
-<img src="outputs/visualizations/segmentation/customer_segmentation_clusters.png" width="800">
+<img src="outputs/machine_learning/customer_segmentation_clusters.png" width="800">
 </p>
 
 ---
@@ -237,7 +237,7 @@ K-Means clustering was applied to segment customers according to purchasing beha
 A machine learning model was developed to predict customer churn behavior.
 
 <p align="center">
-<img src="outputs/visualizations/churn/customer_churn_feature_importance.png" width="700">
+<img src="outputs/machine_learning/customer_churn_feature_importance.png" width="700">
 </p>
 
 ---
@@ -249,7 +249,7 @@ Future sales revenue was forecasted using historical sales patterns.
 ## Historical Sales Trend
 
 <p align="center">
-<img src="outputs/visualizations/forecasting/monthly_sales_trend.png" width="700">
+<img src="outputs/machine_learning/monthly_sales_trend.png" width="700">
 </p>
 
 ---
@@ -257,7 +257,7 @@ Future sales revenue was forecasted using historical sales patterns.
 ## Forecasted Sales Revenue
 
 <p align="center">
-<img src="outputs/visualizations/forecasting/sales_forecasting_prediction.png" width="900">
+<img src="outputs/machine_learning/sales_forecasting_prediction.png" width="900">
 </p>
 
 ---

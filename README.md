@@ -171,7 +171,7 @@ RFM analysis was performed to understand customer purchasing behavior.
 ## Customer Recency Distribution
 
 <p align="center">
-<img src="outputs/visualizations/rfm/rfm_recency_distribution.png" width="700">
+<img src="outputs/analytics/rfm_recency_distribution.png" width="700">
 </p>
 
 ---

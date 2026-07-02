@@ -271,13 +271,6 @@ RFM analysis was performed to understand customer purchasing behavior using:
 <img src="outputs/analytics/rfm_frequency_monetary.png" width="700">
 </p>
 
----
-
-## Customer Segments
-
-<p align="center">
-<img src="outputs/analytics/customer_segments.png" width="700">
-</p>
 
 ---
 
@@ -297,16 +290,6 @@ Customer Lifetime Value (CLV) analysis was conducted to identify long-term custo
 
 <p align="center">
 <img src="outputs/analytics/top_customers_clv.png" width="700">
-</p>
-
----
-
-# 🔄 Customer Cohort Retention Analysis
-
-Cohort analysis was performed to analyze customer retention and repeat purchasing behavior.
-
-<p align="center">
-<img src="outputs/analytics/cohort_retention_analysis.png" width="1000">
 </p>
 
 ---

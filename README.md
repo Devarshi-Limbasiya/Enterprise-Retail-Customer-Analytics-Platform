@@ -1,6 +1,5 @@
 # 📊 Enterprise Retail Customer Analytics Platform
 
-
 <p align="center">
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
@@ -16,26 +15,25 @@
 
 # 📌 Project Overview
 
-The **Enterprise Retail Customer Analytics Platform** is an end-to-end customer analytics and business intelligence solution developed using **SQL Server, Python, Machine Learning, and Power BI**.
+The **Enterprise Retail Customer Analytics Platform** is an enterprise-grade customer analytics and business intelligence solution developed using **SQL Server, Python, Machine Learning, and Power BI**.
 
-The project integrates:
+This project integrates **Data Engineering, Data Analytics, Machine Learning, and Business Intelligence** to transform raw retail transaction data into actionable business insights for strategic decision-making.
 
-- Enterprise Data Warehouse Development
-- Exploratory Data Analysis (EDA)
-- Customer Segmentation
-- Customer Lifetime Value Analysis
-- Customer Retention Cohort Analysis
-- Customer Churn Prediction
-- Sales Forecasting
-- Interactive Business Intelligence Dashboards
+The platform enables organizations to:
 
-The objective of this project is to transform raw retail transaction data into actionable business insights that support customer retention, revenue growth, and strategic decision-making.
+- Understand customer purchasing behavior
+- Segment customers intelligently
+- Predict customer churn
+- Estimate customer lifetime value
+- Analyze customer retention
+- Forecast future sales revenue
+- Visualize business KPIs through executive dashboards
 
 ---
 
 # 🚀 Business Objectives
 
-This project addresses the following business problems:
+This project addresses several critical business challenges:
 
 ✅ Identify high-value customers
 
@@ -51,7 +49,31 @@ This project addresses the following business problems:
 
 ✅ Develop executive business dashboards
 
-✅ Build an enterprise-grade retail analytics ecosystem
+✅ Build an enterprise-scale customer analytics ecosystem
+
+---
+
+# ⭐ Project Highlights
+
+✔ Designed and implemented an Enterprise Data Warehouse using SQL Server
+
+✔ Developed ETL pipelines using Bronze → Silver → Gold architecture
+
+✔ Performed Exploratory Data Analysis using Python
+
+✔ Built Customer RFM Analytics framework
+
+✔ Developed Customer Lifetime Value (CLV) analysis
+
+✔ Implemented Customer Cohort Retention Analysis
+
+✔ Developed Customer Segmentation using K-Means Clustering
+
+✔ Built Customer Churn Prediction models
+
+✔ Created Sales Forecasting models
+
+✔ Developed interactive Power BI dashboards
 
 ---
 
@@ -61,9 +83,9 @@ This project addresses the following business problems:
   <img src="architecture/enterprise_retail_architecture.png" width="1000">
 </p>
 
-The architecture follows a layered analytics approach:
+The architecture follows a layered enterprise analytics approach:
 
-```
+```text
 Raw Data Sources
         ↓
 SQL Server Data Warehouse
@@ -75,6 +97,39 @@ Python Analytics Layer
 Machine Learning Models
         ↓
 Power BI Executive Dashboard
+```
+
+---
+
+# 🔄 Project Workflow
+
+<p align="center">
+  <img src="architecture/analytics_workflow.png" width="1000">
+</p>
+
+The project workflow follows these stages:
+
+```text
+CRM + ERP Data
+       ↓
+ETL Pipelines
+       ↓
+SQL Server Data Warehouse
+(Bronze → Silver → Gold)
+       ↓
+Master Dataset Creation
+       ↓
+Exploratory Data Analysis
+       ↓
+Customer Analytics
+(RFM, CLV, Cohort)
+       ↓
+Machine Learning
+(Segmentation, Churn, Forecasting)
+       ↓
+Power BI Dashboard
+       ↓
+Business Insights
 ```
 
 ---
@@ -114,32 +169,69 @@ Enterprise-Retail-Customer-Analytics-Platform/
 
 ---
 
+# 📊 Project Statistics
+
+| Metric | Value |
+|---------|---------|
+| Customers | 18,000+ |
+| Transactions | 50,000+ |
+| Countries | 6 |
+| Data Warehouse Layers | 3 |
+| Machine Learning Models | 3 |
+| Analytical Modules | 5 |
+| Visualizations | 12+ |
+| SQL Scripts | 14 |
+| Power BI Dashboards | 1 |
+
+---
+
+# 📈 Business KPIs Generated
+
+- Total Revenue
+- Total Customers
+- Average Order Value
+- Customer Lifetime Value
+- Customer Retention Rate
+- Customer Churn Rate
+- Customer Segmentation
+- Sales Growth Rate
+- Forecasted Revenue
+- Geographic Revenue Distribution
+
+---
+
 # 🗄️ Data Warehouse Architecture
 
-The project follows a multi-layer warehouse design:
+The project follows a multi-layer enterprise warehouse design.
 
 ### Bronze Layer
 Raw CRM and ERP datasets.
 
 ### Silver Layer
-Cleaned, standardized and transformed datasets.
+Cleaned, validated, standardized and transformed datasets.
 
 ### Gold Layer
 Business-ready analytical datasets and reporting tables.
 
-### Star Schema
+---
 
-- Fact Table:
-  - fact_sales
+## Star Schema Design
 
-- Dimension Tables:
-  - dim_customers
-  - dim_products
-  - dim_dates
+### Fact Table
+
+- fact_sales
+
+### Dimension Tables
+
+- dim_customers
+- dim_products
+- dim_dates
 
 ---
 
 # 📈 Exploratory Data Analysis
+
+Exploratory analysis was performed to identify trends, customer behavior patterns, and revenue insights.
 
 ## Annual Sales Revenue
 
@@ -159,7 +251,7 @@ Business-ready analytical datasets and reporting tables.
 
 # 👥 Customer RFM Analysis
 
-RFM analysis was performed to understand customer purchasing behavior.
+RFM analysis was performed to understand customer purchasing behavior using:
 
 - Recency
 - Frequency
@@ -181,9 +273,17 @@ RFM analysis was performed to understand customer purchasing behavior.
 
 ---
 
+## Customer Segments
+
+<p align="center">
+<img src="outputs/analytics/customer_segments.png" width="700">
+</p>
+
+---
+
 # 💰 Customer Lifetime Value Analysis
 
-Customer Lifetime Value (CLV) was calculated to identify long-term customer profitability.
+Customer Lifetime Value (CLV) analysis was conducted to identify long-term customer profitability.
 
 ## CLV Distribution
 
@@ -201,12 +301,22 @@ Customer Lifetime Value (CLV) was calculated to identify long-term customer prof
 
 ---
 
+# 🔄 Customer Cohort Retention Analysis
+
+Cohort analysis was performed to analyze customer retention and repeat purchasing behavior.
+
+<p align="center">
+<img src="outputs/analytics/cohort_retention_analysis.png" width="1000">
+</p>
+
+---
+
 # 🧠 Customer Segmentation
 
 K-Means clustering was applied to segment customers according to purchasing behavior.
 
 <p align="center">
-<img src="outputs/machine_learning/customer_segmentation_clusters.png" width="800">
+<img src="outputs/machine_learning/customer_segmentation_clusters.png" width="850">
 </p>
 
 ---
@@ -223,21 +333,33 @@ A machine learning model was developed to predict customer churn behavior.
 
 # 📈 Sales Forecasting
 
-Future sales revenue was forecasted using historical sales patterns.
+Historical sales data was analyzed to forecast future revenue trends.
 
-## Historical Sales Trend
+## Monthly Sales Revenue Trend
 
 <p align="center">
-<img src="outputs/machine_learning/monthly_sales_trend.png" width="700">
+<img src="outputs/machine_learning/monthly_sales_trend.png" width="800">
 </p>
 
 ---
 
-## Forecasted Sales Revenue
+## Historical vs Forecasted Sales Revenue
 
 <p align="center">
-<img src="outputs/machine_learning/sales_forecasting_prediction.png" width="900">
+<img src="outputs/machine_learning/sales_forecasting_prediction.png" width="1000">
 </p>
+
+---
+
+# 💡 Key Business Insights
+
+- United States and Australia generated the highest sales revenue.
+- Customer Recency emerged as the strongest indicator of customer churn.
+- Loyal customers contribute a significant portion of total revenue.
+- High-frequency customers exhibit substantially higher lifetime value.
+- Customer retention decreases considerably after initial purchase periods.
+- Sales revenue demonstrates a positive long-term growth trend.
+- Customer segmentation reveals distinct purchasing behavior patterns.
 
 ---
 
@@ -261,22 +383,24 @@ An executive-level Power BI dashboard was developed to provide:
 
 # 📋 Key Project Deliverables
 
-✅ Enterprise Data Warehouse
+✅ Enterprise Data Warehouse Development
 
 ✅ ETL Pipeline Development
 
 ✅ Exploratory Data Analysis
 
-✅ Customer Analytics
+✅ Customer RFM Analysis
 
 ✅ Customer Lifetime Value Analysis
 
-✅ Customer Segmentation
+✅ Customer Cohort Retention Analysis
+
+✅ Customer Segmentation using K-Means
 
 ✅ Customer Churn Prediction
 
 ✅ Sales Forecasting
 
-✅ Cohort Retention Analysis
+✅ Executive Power BI Dashboard
 
-✅ Interactive Power BI Dashboard
+✅ Enterprise Customer Analytics Platform

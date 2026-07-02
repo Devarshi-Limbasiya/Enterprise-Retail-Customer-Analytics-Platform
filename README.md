@@ -1,7 +1,7 @@
 # 📊 Enterprise Retail Customer Analytics Platform
 
 <p align="center">
-  <img src="architecture/project_architecture.png" width="900">
+  <img src="architecture/enterprise_retail_architecture.png" width="900">
 </p>
 
 <p align="center">

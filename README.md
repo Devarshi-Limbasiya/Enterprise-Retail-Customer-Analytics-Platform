@@ -103,9 +103,6 @@ Power BI Executive Dashboard
 
 # 🔄 Project Workflow
 
-<p align="center">
-  <img src="architecture/analytics_workflow.png" width="1000">
-</p>
 
 The project workflow follows these stages:
 

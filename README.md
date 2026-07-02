@@ -187,7 +187,7 @@ RFM analysis was performed to understand customer purchasing behavior.
 ## Customer Segments
 
 <p align="center">
-<img src="outputs/visualizations/rfm/rfm_segments.png" width="700">
+<img src="outputs/rfm_segments.png" width="700">
 </p>
 
 ---

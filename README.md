@@ -201,16 +201,6 @@ Customer Lifetime Value (CLV) was calculated to identify long-term customer prof
 
 ---
 
-# 🔄 Customer Cohort Retention Analysis
-
-Customer retention patterns were analyzed using cohort analysis.
-
-<p align="center">
-<img src="outputs/machine_learning/cohort_retention_heatmap.png" width="900">
-</p>
-
----
-
 # 🧠 Customer Segmentation
 
 K-Means clustering was applied to segment customers according to purchasing behavior.

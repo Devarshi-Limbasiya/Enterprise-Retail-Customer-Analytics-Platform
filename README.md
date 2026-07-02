@@ -181,14 +181,6 @@ RFM analysis was performed to understand customer purchasing behavior.
 
 ---
 
-## Customer Segments
-
-<p align="center">
-<img src="outputs/analytics/rfm_segments.png" width="700">
-</p>
-
----
-
 # 💰 Customer Lifetime Value Analysis
 
 Customer Lifetime Value (CLV) was calculated to identify long-term customer profitability.

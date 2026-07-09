@@ -73,7 +73,7 @@ This project addresses several critical business challenges:
 
 ✔ Created Sales Forecasting models
 
-✔ Developed interactive Power BI dashboards
+✔ Developed an interactive executive Power BI dashboard with KPI cards, dynamic slicers, and business intelligence visualizations
 
 ---
 
@@ -176,7 +176,7 @@ Enterprise-Retail-Customer-Analytics-Platform/
 | Data Warehouse Layers | 3 |
 | Machine Learning Models | 3 |
 | Analytical Modules | 5 |
-| Visualizations | 12+ |
+| Dashboard Visuals | 13 |
 | SQL Scripts | 14 |
 | Power BI Dashboards | 1 |
 
@@ -185,15 +185,18 @@ Enterprise-Retail-Customer-Analytics-Platform/
 # 📈 Business KPIs Generated
 
 - Total Revenue
+- Total Quantity Sold
+- Total Orders
 - Total Customers
 - Average Order Value
-- Customer Lifetime Value
-- Customer Retention Rate
-- Customer Churn Rate
-- Customer Segmentation
-- Sales Growth Rate
-- Forecasted Revenue
-- Geographic Revenue Distribution
+- Revenue Per Customer
+- Revenue by Product Category
+- Top 10 Products by Revenue
+- Top Countries by Revenue
+- Annual Revenue Trend
+- Monthly Revenue Trend
+- Customer Age Distribution
+- Customer Segment Distribution
 
 ---
 
@@ -333,32 +336,49 @@ Historical sales data was analyzed to forecast future revenue trends.
 
 # 💡 Key Business Insights
 
-- United States and Australia generated the highest sales revenue.
-- Customer Recency emerged as the strongest indicator of customer churn.
-- Loyal customers contribute a significant portion of total revenue.
-- High-frequency customers exhibit substantially higher lifetime value.
-- Customer retention decreases considerably after initial purchase periods.
-- Sales revenue demonstrates a positive long-term growth trend.
-- Customer segmentation reveals distinct purchasing behavior patterns.
+- The United States and Australia generated the highest overall revenue.
+- Bikes contributed the majority of total product revenue.
+- A small group of products accounted for the highest sales revenue.
+- Monthly revenue showed an overall upward trend throughout the year.
+- Annual revenue peaked in 2013 before declining in 2014.
+- Most customers belong to the "New" customer segment.
+- Customers aged 50 and above represent the largest customer group.
 
 ---
 
 # 📊 Power BI Dashboard
 
-An executive-level Power BI dashboard was developed to provide:
+An executive-level Power BI dashboard was developed to provide interactive business insights through:
 
+- Executive KPI Cards
 - Revenue Analysis
-- Customer Analysis
-- Product Analysis
-- Sales Trends
-- Geographic Insights
-- Customer Segmentation
-- KPI Monitoring
+- Product Performance Analysis
+- Country-wise Revenue Analysis
+- Annual & Monthly Revenue Trends
+- Customer Age Distribution
+- Customer Segment Distribution
+- Interactive Filters (Country, Year & Customer Segment)
+- Executive KPI Monitoring
 
 <p align="center">
-<img src="dashboards/powerbi_dashboard.png" width="1000">
+<img src="dashboards/powerbi_dashboard.png" width="1100">
 </p>
 
+The dashboard provides an executive overview of retail business performance through interactive KPI cards, dynamic slicers, revenue trends, product analysis, customer demographics, and geographical insights, enabling users to explore business performance across different countries, years, and customer segments.
+
+### Dashboard Features
+
+- Executive KPI Cards
+- Interactive Country Filter
+- Interactive Year Filter
+- Customer Segment Filter
+- Revenue by Product Category
+- Top 10 Products by Revenue
+- Top Countries by Revenue
+- Annual Revenue Trend
+- Monthly Revenue Trend
+- Customer Age Distribution
+- Customer Segment Distribution
 ---
 
 # 📋 Key Project Deliverables

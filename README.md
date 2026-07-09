@@ -356,7 +356,7 @@ An executive-level Power BI dashboard was developed to provide:
 - KPI Monitoring
 
 <p align="center">
-<img src="dashboard/powerbi_dashboard.png" width="1000">
+<img src="dashboards/powerbi_dashboard.png" width="1000">
 </p>
 
 ---
